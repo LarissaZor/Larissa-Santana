@@ -1,0 +1,124 @@
+/*cor e fonte de todos links*/
+body {
+    background-color: #20584f;
+    font-family:'Times New Roman', Times, serif;
+    margin: 1%;
+}
+
+
+/*barra de navegação*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*muda a posicao*/
+li a {
+    float: left;
+    display: block;
+    color:rgb(255, 255, 255);
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+
+/*Cor que fica quando em hover */
+li a:hover {
+    background-color: #e9864c;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+/*tamanho e padding da barra de navegacao*/
+.header{
+    font-size: 17px;
+    padding: 15px;
+}
+
+
+/*fonte para todos os titulos*/
+h1{
+    color: #e9864c;
+    font-size: 70px;
+    padding-top:1% ;
+    text-align: left;
+    background-color: #338376c9;
+}
+
+
+h2{
+    font-size: 35px;
+    text-align: center;
+    color:#ffffff;
+}
+
+
+h3{
+    padding: 1%;
+    font-size: 30px;
+    text-align: center;
+    color: #EE9765;
+    background-color: #000000af;
+}
+
+
+h4{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 80px;
+    color:rgb(255, 255, 255);
+}
+ 
+
+.sobre{
+    padding: 4%;
+    font-size: 25px;
+    text-align:left;
+    color: #ffffff;
+}
+
+     
+.nome2{
+    text-align: center;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+
+
+table{
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    background-color: #44b3a0;
+    margin: 100px auto;
+}
+
+/*titulos tabela*/
+th{
+    background-color:#EE9765;
+    color: #000000;
+}
+
+
+.projetos{
+    font-size: 20px;
+}
+
+
+.desc{
+    color: #EE9765;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+footer{
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    background-color:#000000;
+}
